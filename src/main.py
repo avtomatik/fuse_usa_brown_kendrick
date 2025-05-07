@@ -10,10 +10,9 @@ Created on Wed Aug 23 21:25:31 2023
 import pandas as pd
 from core.backend import enlist_series_ids, stockpile
 from core.classes import Dataset
-from pandas import DataFrame
 
 
-def get_fused_usa_brown_kendrick() -> DataFrame:
+def get_fused_usa_brown_kendrick() -> pd.DataFrame:
     """
     Fetch Data from:
         <reference_ru_brown_m_0597_088.pdf>, Page 193 &
@@ -25,7 +24,7 @@ def get_fused_usa_brown_kendrick() -> DataFrame:
 
     Returns
     -------
-    DataFrame
+    pd.DataFrame
         DESCRIPTION.
 
     """
